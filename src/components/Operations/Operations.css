@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+.validation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.checker {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.validation h3 {
+  color: #666666;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.status-info {
+  height: 20px;
+  width: 20px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.status-rejected {
+  background-color: #fe2f75;
+}
+
+.checker img {
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+}
+
+.status-checking {
+  background-color: #ffa689;
+}
+
+.unchecked {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  border: 1px solid #c2c8d0;
+}
+
+.check-mail input {
+  width: 50%;
+  max-width: 30px;
+  min-width: 250px;
+  height: 50px;
+  border: none;
+  margin: 0.5rem 0;
+  background-color: #f5f5f5;
+  box-shadow: 0px 14px 9 -15px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 0 1rem;
+  transition: all 0.2s ease-in;
+}
+
+.enter {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #808080;
+}
+
+.enter span {
+  font-weight: 800;
+  margin-right: 0;
+  color: #70edb9;
+}
+
+.error {
+  color: #fe2f75;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  height: auto;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.category h4 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+}
+
+.category p {
+  font-size: small;
+  margin-top: 0.5rem;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+.category span {
+  font-weight: 600;
+  color: #ff8d8d;
+}
+
+li {
+  list-style-type: upper-roman;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+  color: #ff8d8d;
+}
+
+#provider {
+  color: #fe2f75;
+}
+
+#no-domain {
+  color: #fe2f75;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#found-domain {
+  color: #13d8e5;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#registered {
+  color: rgb(112, 237, 185);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.checker h4 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ff8d8d;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: left;
+  margin-right: 4rem;
+}
+
+.error {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-paragraph {
+  font-size: small;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+.delete-user-image {
+  cursor: pointer;
+}
